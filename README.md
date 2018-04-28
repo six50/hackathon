@@ -1,5 +1,4 @@
-<img src="docs/logo.png" alt="SixFifty" width="80px" style="float: right;" />
-<img src="https://pydata.org/london2018/static/images/logo.288981a8dfa8.png" alt="PyData London 2018" width="120px"  style="float: right;">
+| ![SixFifty](docs/logo.png | width=80)  |  ![PyData](https://pydata.org/london2018/static/images/logo.288981a8dfa8.png | width=120) |
 
 # PyData 2018 Politics Hackathon
 Code and resources for the [PyData 2018 Politics Hackathon](https://pydata.org/london2018/schedule/presentation/53/).
