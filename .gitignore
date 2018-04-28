@@ -1,0 +1,11 @@
+# Python
+*.pyc
+**/.ipynb_checkpoints/*.ipynb
+
+# Data
+data/**/*.csv
+data/**/*.feather
+data/**/*.json
+data/**/*.pdf
+data/**/*.xlsx
+
