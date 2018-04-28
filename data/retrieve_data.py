@@ -57,6 +57,88 @@ def main():
     get_data(filename='polls.feather',
              repo_path='data/polls/')
 
+    print('Downloading regional polling data')
+    get_data(filename='polls_london.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_london.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_london.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_scotland.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_scotland.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_scotland.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_wales.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_wales.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_wales.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_ni.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_ni.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_ni.feather',
+             repo_path='data/polls/')
+
+    print('Downloading smoothed polling data')
+    get_data(filename='polls_smoothed.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_smoothed.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_smoothed.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_london_smoothed.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_london_smoothed.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_london_smoothed.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_scotland_smoothed.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_scotland_smoothed.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_scotland_smoothed.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_wales_smoothed.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_wales_smoothed.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_wales_smoothed.feather',
+             repo_path='data/polls/')
+
+    get_data(filename='polls_ni_smoothed.json',
+             repo_path='data/polls/')
+    get_data(filename='polls_ni_smoothed.csv',
+             repo_path='data/polls/')
+    get_data(filename='polls_ni_smoothed.feather',
+             repo_path='data/polls/')
+
+    print('Downloading averaged final polls')
+    get_data(filename='final_polls_2015.csv',
+             repo_path='data/polls/')
+    get_data(filename='final_polls_2017.csv',
+             repo_path='data/polls/')
+
+    # Model-ready datasets
+    print('Downloading model-ready datasets')
+    get_data(filename='ge10.csv',
+             repo_path='data/model/')
+    get_data(filename='ge10.feather',
+             repo_path='data/model/')
+    get_data(filename='ge15.csv',
+             repo_path='data/model/')
+    get_data(filename='ge15.feather',
+             repo_path='data/model/')
+
 
 if __name__ == "__main__":
     main()
