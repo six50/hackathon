@@ -1,5 +1,13 @@
+<img src="images/logo.png" alt="SixFifty" width="100px">
+
 # PyData 2018 Politics Hackathon
 Code and resources for the [PyData 2018 Politics Hackathon](https://pydata.org/london2018/schedule/presentation/53/).
+
+- - -
+
+## About SixFifty
+
+SixFifty is a team of data scientists, engineers and political experts, dedicated to bringing a rigorous, data-oriented, and impartial view to the UK politics. The following article provides a good introduction to the political/election data ecosystem and some of the challenges in building predictive models for political events: _[Building SixFifty's Election Tracker](https://sixfifty.org.uk/2017/05/21/building-sixfiftys-election-tracker/)_.
 
 ## SixFifty Datasets
 
