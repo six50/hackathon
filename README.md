@@ -1,6 +1,6 @@
 <div>
     <img src="docs/logo.png" alt="SixFifty" width="75px" style="float: left;" />
-    <img src="https://pydata.org/london2018/static/images/logo.288981a8dfa8.png" alt="PyData London 2018" width="130px"  style="float: left;">
+    <img src="https://pydata.org/london2018/static/images/logo.288981a8dfa8.png" alt="PyData London 2018" width="150px"  style="float: left;">
 </div>
 
 # PyData 2018 Politics Hackathon
