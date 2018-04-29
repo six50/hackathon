@@ -16,6 +16,14 @@ SixFifty is a team of data scientists, engineers and political experts, dedicate
 
 The following datasets have been pre-processed and uploaded to S3. If you would like to understand how this data have been sourced and processed, please see the [SixFifty Pipeline repo](https://github.com/six50/pipeline). We aim to provide our processed datasets in both CSV and [Feather](https://blog.rstudio.org/2016/03/29/feather/) formats.
 
+
+## Key objectives for this hackathon
+1. Create an automated tool for polling data extraction (from a variety of PDF formats)
+2. (a) Replicate and improve our current general election forecasting model trained and tested on 2010, 2015 [2017=held out]. 
+(b) *optional* Add in any kind of census data (Warning: complex geospatial joining required)
+3. Build a local election forecasting model based on May 2014 data (pre- May 3rd 2018, so completely held out)
+
+
 ### Raw
 | Dataset | Description | Date | Source | Licence | Download URL | Repo Path |
 | -- | -- | -- | -- | -- | -- | -- |
