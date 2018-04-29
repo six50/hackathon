@@ -138,6 +138,20 @@ def main():
              repo_path='data/model/')
     get_data(filename='ge15.feather',
              repo_path='data/model/')
+    get_data(filename='ge10_all_parties.csv',
+             repo_path='data/model/')
+    get_data(filename='ge10_all_parties.feather',
+             repo_path='data/model/')
+    get_data(filename='ge15_all_parties.csv',
+             repo_path='data/model/')
+    get_data(filename='ge15_all_parties.feather',
+             repo_path='data/model/')
+
+    # Reshaped training datasets
+    get_data(filename='ge_2010_2015_training_data.csv',
+             repo_path='data/model/')
+    get_data(filename='ge_2010_2015_training_data.feather',
+             repo_path='data/model/')
 
 
 if __name__ == "__main__":
