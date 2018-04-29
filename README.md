@@ -16,6 +16,14 @@ SixFifty is a team of data scientists, engineers and political experts, dedicate
 
 The following datasets have been pre-processed and uploaded to S3. If you would like to understand how this data have been sourced and processed, please see the [SixFifty Pipeline repo](https://github.com/six50/pipeline). We aim to provide our processed datasets in both CSV and [Feather](https://blog.rstudio.org/2016/03/29/feather/) formats.
 
+
+## Key objectives for this hackathon
+1. Create an automated tool for polling data extraction (from a variety of PDF formats)
+2. (a) Replicate and improve our current general election forecasting model trained and tested on 2010, 2015 [2017=held out]. 
+(b) *optional* Add in any kind of census data (Warning: complex geospatial joining required)
+3. Build a local election forecasting model based on May 2014 data (pre- May 3rd 2018, so completely held out)
+
+
 ### Raw
 | Dataset | Description | Date | Source | Licence | Download URL | Repo Path |
 | -- | -- | -- | -- | -- | -- | -- |
@@ -45,6 +53,22 @@ python data/retrieve_data.py
 
 ## Filling this repo with data (detailed setup instructions)
 Please see [these instructions on installing Anaconda + dependencies + configuring S3 tokens](docs/setup.md).
+
+---
+
+## Useful links
+
+**Datasets**
+
+You don’t have to use these, but they’re a good start.
+
+- [GE2017 Tech Initiatives Handbook:](http://bit.ly/GE2017TechHandbook) – Collection of resources, datasets, volunteers, existing projects, proposed projects. Initiated by Newspeak House.
+- [UK Politics Datasets:](http://bit.ly/UKPoliticsDatasets) – Crowdsourced document of links to useful datasets & munging tools. Candidates, polling stations, constituencies, parliament voting records, parliament speeches, Hansard, previous election/referendum results, registered financial interests, boundary maps, shapefiles, campaign expenses, registration rates, candidates CVs, constituency stats, GE2017 manifestos…
+- [Democracy Club:](https://democracyclub.org.uk/data/) – Election identifiers, candidates’ info since 2010 (name, email, photos, social media), polling stations, all CC-BY-SA.
+- mySociety: mySociety have created a range of tools including Parliamentary Monitoring, structured data on every national politician in the world, candidate data, contacting elected representatives, constituency/postcode matching tool MapIt, and published transcripts from all levels of government.
+- mySociety Geographic data: When it comes to building predictive models, geocoded data is quite handy. Official “open” data portals can be broken, or the data only available via mail-order CD, so mySociety’s cache of OS, ONS, and OSNI open geographic data going back to 2010 is a gold mine.
+- [SixFifty Datasets:](https://github.com/six50/pipeline) – Model-ready datasets for 2010/2015 elections, EU referendum, opinion polls at national/regional levels, all available in CSV, JSON and Feather.
+
 
 ---
 
