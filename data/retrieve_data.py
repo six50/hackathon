@@ -152,6 +152,10 @@ def main():
              repo_path='data/model/')
     get_data(filename='ge_2010_2015_training_data.feather',
              repo_path='data/model/')
+    get_data(filename='ge_2015_2017_prediction_data.csv',
+             repo_path='data/model/')
+    get_data(filename='ge_2015_2017_prediction_data.feather',
+             repo_path='data/model/')
 
 
 if __name__ == "__main__":
